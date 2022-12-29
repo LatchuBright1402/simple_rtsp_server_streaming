@@ -4,7 +4,7 @@ import subprocess as sp
 
 rtsp_server = 'rtsp://192.168.0.120:8554/mystream'
 
-cap = cv2.VideoCapture('sample.mp4')
+cap = cv2.VideoCapture('person_sample.mp4')
 sizeStr = str(int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))) + 'x' + str(int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT)))
 fps = int(cap.get(cv2.CAP_PROP_FPS))
 
